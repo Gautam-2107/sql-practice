@@ -1,34 +1,31 @@
 # SQL Practice
 
-A structured collection of SQL problem-solving exercises focused on
-query writing, analytical patterns, and real-world data manipulation.
+A structured SQL learning and problem-solving repository focused on
+SQL fundamentals, analytical query patterns, and interview preparation.
 
-## Objectives
+## Learning Path
 
-- Build strong SQL fundamentals
-- Develop analytical query skills
-- Practice SQL problem solving
-- Learn advanced SQL patterns
-- Solve progressively challenging problems
+This repository combines two learning tracks:
 
-## Topics
+- **SQLBolt** — for learning SQL concepts progressively
+- **LeetCode SQL 50** — for structured problem solving and interview practice
 
-| Topic | Status |
-|---|---|
-| SELECT Basics | 🟡 In Progress |
-| Aggregations | ⚪ Planned |
-| Joins | ⚪ Planned |
-| Subqueries | ⚪ Planned |
-| Window Functions | ⚪ Planned |
-| CTEs | ⚪ Planned |
-| String & Date Functions | ⚪ Planned |
-| CASE Expressions | ⚪ Planned |
-| Advanced SQL | ⚪ Planned |
-| LeetCode SQL | ⚪ Planned |
+## Repository Structure
 
-## Progress
-
-**Problems Solved:** 0
-
-This repository is actively maintained as part of my SQL learning
-and problem-solving journey.
+```text
+sql-practice/
+│
+├── sqlbolt/
+│
+├── leetcode-sql-50/
+│   ├── 01-select-basics/
+│   ├── 02-basic-queries/
+│   ├── 03-aggregation/
+│   ├── 04-joins/
+│   ├── 05-subqueries/
+│   ├── 06-grouping/
+│   ├── 07-advanced-queries/
+│   └── 08-window-functions/
+│
+├── README.md
+└── .gitignore
